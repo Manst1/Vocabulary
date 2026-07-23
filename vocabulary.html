@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vocabulary</title>
-    <link rel="icon" type="image/png" href="https://i.imgur.com/98HujL9.png">		
+    <link rel="icon" type="image/png" href="https://i.imgur.com/98HujL9.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Custom pattern for the right side */
         .pattern-container {
             position: relative;
         }
@@ -26,7 +25,7 @@
         .content {
             position: relative;
             z-index: 1;
-        } 
+        }
     </style>
 </head>
 <body class="bg-gray-100 font-sans">
@@ -34,161 +33,252 @@
         <header class="bg-blue-600 text-white p-4 shadow-lg">
             <h1 class="text-3xl font-bold text-center">Vocabulary - Püsses</h1>
         </header>
+        
         <main class="container mx-auto p-6 content">
-            <a href="https://Manst1.github.io/Allwords/allwords.html" class="absolute top-16 left-4 w-20 h-20 bg-green-300 rounded-full flex items-center justify-center text-gray-800 font-semibold text-sm hover:bg-green-400 transition transform hover:scale-105">
-                <span class="text-center">All<br>Words</span>
-            </a>
-            <div class="grid grid-cols-1 gap-12 max-w-lg mx-auto">
-                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[120px] flex items-center p-5">
-                    <img src="https://i.imgur.com/X3y8W1E.png" alt="Word 1" class="w-20 h-20 object-cover rounded">
-                    <div class="flex-1 flex flex-col items-end">
-                        <h2 class="text-xl font-semibold text-gray-800 mb-1"></h2>
-                        <a href="https://manst1.github.io/Animals/animals.html" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition">Animals</a>
+            <!-- All Words Button - Moved much further left -->
+<a href="https://Manst1.github.io/Allwords/allwords.html" 
+   class="absolute top-16 -left-24 w-20 h-20 bg-green-300 rounded-full flex items-center justify-center text-gray-800 font-semibold text-sm hover:bg-green-400 transition transform hover:scale-105 z-10 shadow-lg">
+    <span class="text-center">All<br>Words</span>
+</a>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 max-w-7xl mx-auto">
+                <!-- Animals -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/X3y8W1E.png" alt="Animals" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Animals/animals.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Animals
+                        </a>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[120px] flex items-center p-5">
-                    <img src="https://i.imgur.com/AEc9enY.png" alt="Word 2" class="w-20 h-20 object-cover rounded">
-                    <div class="flex-1 flex flex-col items-end">
-                        <h2 class="text-xl font-semibold text-gray-800 mb-1"></h2>
-                        <a href="https://manst1.github.io/Furniture/furniture.html" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition">Furniture</a>
+
+                <!-- Furniture -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/GVIRee5.png" alt="Furniture" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Furniture/furniture.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Furniture
+                        </a>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[120px] flex items-center p-5">
-                    <img src="https://i.imgur.com/OyY7bMQ.png" alt="Word 3" class="w-20 h-20 object-cover rounded">
-                    <div class="flex-1 flex flex-col items-end">
-                        <h2 class="text-xl font-semibold text-gray-800 mb-1"></h2>
-                        <a href="https://manst1.github.io/Human/human.html" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition">The Human Body</a>
+
+                <!-- The Human Body -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/OyY7bMQ.png" alt="Human Body" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Human/human.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Body
+                        </a>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[120px] flex items-center p-5">
-                    <img src="https://i.imgur.com/Doy4Rgw.png" alt="Word 4" class="w-20 h-20 object-cover rounded">
-                    <div class="flex-1 flex flex-col items-end">
-                        <h2 class="text-xl font-semibold text-gray-800 mb-1"></h2>
-                        <a href="https://manst1.github.io/Clothing/clothing.html" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition">Clothing</a>
+
+                <!-- Clothing -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/kobkO8V.png" alt="Clothing" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Clothing/clothing.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Clothing
+                        </a>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[120px] flex items-center p-5">
-                    <img src="https://i.imgur.com/Iwwky77.png" alt="Word 5" class="w-20 h-20 object-cover rounded">
-                    <div class="flex-1 flex flex-col items-end">
-                        <h2 class="text-xl font-semibold text-gray-800 mb-1"></h2>
-                        <a href="https://manst1.github.io/Colors/colors.html" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition">Colors</a>
+
+                <!-- Colors -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/Q9y9joH.png" alt="Colors" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Colors/colors.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Colors
+                        </a>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[120px] flex items-center p-5">
-                    <img src="https://i.imgur.com/QZu2mi5.png" alt="Word 6" class="w-20 h-20 object-cover rounded">
-                    <div class="flex-1 flex flex-col items-end">
-                        <h2 class="text-xl font-semibold text-gray-800 mb-1"></h2>
-                        <a href="https://manst1.github.io/Food/food.html" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition">Food</a>
+
+                <!-- Food -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/QZu2mi5.png" alt="Food" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Food/food.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Food
+                        </a>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[120px] flex items-center p-5">
-                    <img src="https://i.imgur.com/Fe9yJaV.png" alt="Word 7" class="w-20 h-20 object-cover rounded">
-                    <div class="flex-1 flex flex-col items-end">
-                        <h2 class="text-xl font-semibold text-gray-800 mb-1"></h2>
-                        <a href="https://manst1.github.io/Electronics/electronics.html" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition">Electronics</a>
+
+                <!-- Electronics -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/Fe9yJaV.png" alt="Electronics" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Electronics/electronics.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Electronics
+                        </a>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[120px] flex items-center p-5">
-                    <img src="https://i.imgur.com/bCv0MPX.png" alt="Word 8" class="w-20 h-20 object-cover rounded">
-                    <div class="flex-1 flex flex-col items-end">
-                        <h2 class="text-xl font-semibold text-gray-800 mb-1"></h2>
-                        <a href="https://manst1.github.io/Rooms/rooms.html" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition">Rooms</a>
+
+                <!-- Rooms -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/bCv0MPX.png" alt="Rooms" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Rooms/rooms.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Rooms
+                        </a>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[120px] flex items-center p-5">
-                    <img src="https://i.imgur.com/RXtfbms.png" alt="Word 9" class="w-20 h-20 object-cover rounded">
-                    <div class="flex-1 flex flex-col items-end">
-                        <h2 class="text-xl font-semibold text-gray-800 mb-1"></h2>
-                        <a href="https://manst1.github.io/Medicine/medicine.html" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition">Medicine</a>
+
+                <!-- Medicine -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/RXtfbms.png" alt="Medicine" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Medicine/medicine.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Medicine
+                        </a>
                     </div>
                 </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[120px] flex items-center p-5">
-                    <img src="https://via.placeholder.com/100?text=Word10" alt="Word 10" class="w-20 h-20 object-cover rounded">
-                    <div class="flex-1 flex flex-col items-end">
-                        <h2 class="text-xl font-semibold text-gray-800 mb-1">Word 10</h2>
-                        <a href="https://example.com/word10" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition">Learn Word 10</a>
+				
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/XBOZ0go.png" alt="Medicine" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Baby/baby.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Baby
+                        </a>
                     </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[120px] flex items-center p-5">
-                    <img src="https://via.placeholder.com/100?text=Word11" alt="Word 11" class="w-20 h-20 object-cover rounded">
-                    <div class="flex-1 flex flex-col items-end">
-                        <h2 class="text-xl font-semibold text-gray-800 mb-1">Word 11</h2>
-                        <a href="https://example.com/word11" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition">Learn Word 11</a>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[120px] flex items-center p-5">
-                    <img src="https://via.placeholder.com/100?text=Word12" alt="Word 12" class="w-20 h-20 object-cover rounded">
-                    <div class="flex-1 flex flex-col items-end">
-                        <h2 class="text-xl font-semibold text-gray-800 mb-1">Word 12</h2>
-                        <a href="https://example.com/word12" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition">Learn Word 12</a>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[120px] flex items-center p-5">
-                    <img src="https://via.placeholder.com/100?text=Word13" alt="Word 13" class="w-20 h-20 object-cover rounded">
-                    <div class="flex-1 flex flex-col items-end">
-                        <h2 class="text-xl font-semibold text-gray-800 mb-1">Word 13</h2>
-                        <a href="https://example.com/word13" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition">Learn Word 13</a>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[120px] flex items-center p-5">
-                    <img src="https://via.placeholder.com/100?text=Word14" alt="Word 14" class="w-20 h-20 object-cover rounded">
-                    <div class="flex-1 flex flex-col items-end">
-                        <h2 class="text-xl font-semibold text-gray-800 mb-1">Word 14</h2>
-                        <a href="https://example.com/word14" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition">Learn Word 14</a>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[120px] flex items-center p-5">
-                    <img src="https://via.placeholder.com/100?text=Word15" alt="Word 15" class="w-20 h-20 object-cover rounded">
-                    <div class="flex-1 flex flex-col items-end">
-                        <h2 class="text-xl font-semibold text-gray-800 mb-1">Word 15</h2>
-                        <a href="https://example.com/word15" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition">Learn Word 15</a>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[120px] flex items-center p-5">
-                    <img src="https://via.placeholder.com/100?text=Word16" alt="Word 16" class="w-20 h-20 object-cover rounded">
-                    <div class="flex-1 flex flex-col items-end">
-                        <h2 class="text-xl font-semibold text-gray-800 mb-1">Word 16</h2>
-                        <a href="https://example.com/word16" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition">Learn Word 16</a>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[120px] flex items-center p-5">
-                    <img src="https://via.placeholder.com/100?text=Word17" alt="Word 17" class="w-20 h-20 object-cover rounded">
-                    <div class="flex-1 flex flex-col items-end">
-                        <h2 class="text-xl font-semibold text-gray-800 mb-1">Word 17</h2>
-                        <a href="https://example.com/word17" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition">Learn Word 17</a>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[120px] flex items-center p-5">
-                    <img src="https://via.placeholder.com/100?text=Word18" alt="Word 18" class="w-20 h-20 object-cover rounded">
-                    <div class="flex-1 flex flex-col items-end">
-                        <h2 class="text-xl font-semibold text-gray-800 mb-1">Word 18</h2>
-                        <a href="https://example.com/word18" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition">Learn Word 18</a>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[120px] flex items-center p-5">
-                    <img src="https://via.placeholder.com/100?text=Word19" alt="Word 19" class="w-20 h-20 object-cover rounded">
-                    <div class="flex-1 flex flex-col items-end">
-                        <h2 class="text-xl font-semibold text-gray-800 mb-1">Word 19</h2>
-                        <a href="https://example.com/word19" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition">Learn Word 19</a>
-                    </div>
-                </div>
-                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[120px] flex items-center p-5">
-                    <img src="https://via.placeholder.com/100?text=Word20" alt="Word 20" class="w-20 h-20 object-cover rounded">
-                    <div class="flex-1 flex flex-col items-end">
-                        <h2 class="text-xl font-semibold text-gray-800 mb-1">Word 20</h2>
-                        <a href="https://example.com/word20" class="mt-2 inline-block bg-blue-500 text-white px-4 py-2 rounded text-base hover:bg-blue-600 transition">Learn Word 20</a>
-                    </div>
-                </div>
-            </div>
+            </div>					
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/lujPmJ9.png" alt="Medicine" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Weather/weather.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Weather
+                        </a>
+                    </div>					
+                </div>	
+				
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/vIECdLp.png" alt="Medicine" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Religion/religion.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Religion
+                        </a>
+                    </div>					
+                </div>	
+
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/vkcQT98.png" alt="Medicine" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Jobs/jobs.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Jobs
+                        </a>
+                    </div>					
+                </div>				
+
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/FCxxyrH.png" alt="Medicine" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Instruments/instruments.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Instruments
+                        </a>
+                    </div>					
+                </div>	
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/8IdKAdn.png" alt="Medicine" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Creatures/creatures.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Creatures
+                        </a>
+                    </div>					
+                </div>				
+				
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/6OGnTsf.png" alt="Medicine" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Materials/materials.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Materials
+                        </a>
+                    </div>					
+                </div>		
+
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/c9nj8uy.png" alt="Medicine" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Vehicles/vehicles.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Vehicles
+                        </a>
+                    </div>					
+                </div>	
+				
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/FFroZNS.png" alt="Medicine" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Math/math.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Math
+                        </a>
+                    </div>					
+                </div>	
+
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/eymgx59.png" alt="Medicine" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Buildings/buildings.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Places
+                        </a>
+                    </div>					
+                </div>					
+		
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/zqvlkj0.png" alt="Medicine" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Nature/nature.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Nature
+                        </a>
+                    </div>					
+                </div>	
+
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/NvVWowG.png" alt="Medicine" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Traffic/traffic.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Traffic
+                        </a>
+                    </div>					
+                </div>	
+
+                <div class="bg-white rounded-lg shadow-md overflow-hidden transform transition hover:scale-105 min-h-[130px] flex items-center p-4">
+                    <img src="https://i.imgur.com/G8dD7ZY.png" alt="Medicine" class="w-20 h-20 object-cover rounded flex-shrink-0">
+                    <div class="flex-1 flex flex-col items-end ml-4">
+                        <a href="https://manst1.github.io/Randomitems/randomitems.html" 
+                           class="mt-2 inline-block bg-blue-500 text-white px-5 py-2 rounded text-base hover:bg-blue-600 transition">
+                            Random Items
+                        </a>
+                    </div>					
+                </div>					
+
+                <!-- Add your remaining placeholder cards here (Word 10+) using the same structure -->
+
         </main>
     </div>
+
+    <script data-goatcounter="https://manst1.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+    
     <script>
-        // Basic error logging to help diagnose issues
         window.onload = function() {
             console.log("Page loaded successfully");
-            if (!document.querySelector('.grid')) {
-                console.error("Grid container not found - check HTML structure");
-            }
         };
     </script>
 </body>
